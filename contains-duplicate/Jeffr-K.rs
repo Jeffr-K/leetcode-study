@@ -10,7 +10,7 @@ fn contains_duplicate(nums: Vec<i32>) -> bool {
     
     for num in nums.iter() {
         if let false = set.insert(num) {
-          return true
+            return true
         }
     }
 
